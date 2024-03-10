@@ -1,0 +1,90 @@
+:root{
+    --amarilloOriginal : #FFE600;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 50px;
+    background-color: var(--amarilloOriginal);    
+}
+.header1 {
+    display: flex;    
+    padding: 8px 0;
+    width: 100%;    
+}
+.header1 img {
+    width: 15%;
+    height: 40px;
+}
+.header1 .logo {
+    width: 134px;
+    height: 34px;
+    margin-right: 50px;
+    align-self: center;
+}
+.buscador {
+    display: flex;
+    align-items: center;    
+    margin-right: 80px;
+    width: 580px;  
+    border-radius: 100px;
+}
+.buscador a {
+    display: flex;    
+    padding: 11px;    
+    background-color: white;    
+}
+.buscador input {
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 700px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+img.disney {
+    width: 340px;
+}
+.header2 {
+    display: flex;
+    align-items: center;    
+}
+.header2 .location {
+    display: flex;
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+}
+.location span {
+    font-size: 12px;
+    color: rgb(75, 75, 75);
+}
+.location p{
+    font-size: 13px;
+    color: rgb(75, 75, 75);
+}
+.location i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.nav-header ul.menu{
+    display: flex;
+    list-style: none;    
+    margin-left: 90px;
+    gap: 15px;
+}
+.nav-header ul.sub-menu {
+    display: none;
+}
+.nav-header ul.menu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(75, 75, 75);
+    
+}
